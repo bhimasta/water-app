@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#23ABFA</color>
+    <color name="colorFab1">#23ABFA</color>
+    <color name="colorFab2">#23ABFA</color>
+    <color name="colorFab3">#23ABFA</color>
+
+    <color name="colorSlide_1">#FFFFFF</color>
+    <color name="colorSlide_2">#FFFFFF</color>
+    <color name="colorSlide_3">#FFFFFF</color>
+
+    <color name="inactive_dots">#AAAAAA</color>
+    <color name="active_dots">#444444</color>
+
+</resources>

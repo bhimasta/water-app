@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">tutorial</string>
+    <string name="message">HCI_Testing</string>
+    <string name="message2">Tutorial</string>
+    <string name="message3">Button_change</string>
+    <string name="btnSkip">Skip</string>
+    <string name="btnNext">Next</string>>
+
+    <string name="slide1_title">Drink Smartly</string>
+    <string name="slide1_des">8 glasses of water a day is a basic principle but we usually forgot when and how much
+        water to drink. h2o lets you form an accurate drinking habit in an interesting way
+    </string>
+
+    <string name="slide2_title">Drink Regularly</string>
+    <string name="slide2_des">In h2o, you will get a reminder roughly every 2 hours to notify you to drink regularly.
+        The water meter drops as time goes on. Tap on the drink button to interact with the water meter
+    </string>
+
+    <string name="slide3_title">Drink adequately</string>
+    <string name="slide3_des">In addition to drink regularly, you also need to drink adequately to remain good health.
+        Choose on the different amount of water you frink each time
+    </string>
+
+    <string name="my_preference">"com.nasri.com.MyPref"</string>
+    <string name="my_preference_key">"com.nasri.com.MyPrefKey"</string>
+
+</resources>
