@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:2:1-34:12
 MERGED from [com.android.volley:volley:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/9f3a1d38c4bbcf1ca7e94b86312dc376/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c961b60b1394a832402079a11ae58c79/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fb3651778f633179260eeb2043d220f5/AndroidManifest.xml:17:1-22:12
@@ -37,20 +37,20 @@ MERGED from [com.android.support:interpolator:28.0.0] /Users/sapidelman7/.gradle
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/56172431841618ee32a381358d559011/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/1d790d1e2712712749df0a87250474ed/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/62b67057809ea6385c2abdd54da6f69d/AndroidManifest.xml:17:1-22:12
-INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:3:11-39
 		INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml
 		INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml
-		ADDED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml
-		ADDED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:2:11-69
@@ -59,7 +59,7 @@ ADDED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidMa
 	android:name
 		ADDED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:7:5-27:19
+ADDED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:7:5-32:19
 MERGED from [com.android.volley:volley:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/9f3a1d38c4bbcf1ca7e94b86312dc376/AndroidManifest.xml:9:5-20
 MERGED from [com.android.volley:volley:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/9f3a1d38c4bbcf1ca7e94b86312dc376/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c961b60b1394a832402079a11ae58c79/AndroidManifest.xml:22:5-20
@@ -108,6 +108,14 @@ activity#com.nasri.tutorial.LoginActivity
 ADDED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:25:9-26:20
 	android:name
 		ADDED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:25:19-48
+activity#com.nasri.tutorial.Main2Activity
+ADDED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:27:9-31:20
+	android:label
+		ADDED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:29:17-61
+	android:theme
+		ADDED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:30:17-48
+	android:name
+		ADDED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:28:17-46
 uses-sdk
 INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml

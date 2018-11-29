@@ -33,6 +33,11 @@
         </activity>
         <activity android:name="com.nasri.tutorial.LoginActivity" >
         </activity>
+        <activity
+            android:name="com.nasri.tutorial.Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme" >
+        </activity>
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
