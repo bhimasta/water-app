@@ -86,5 +86,4 @@ object AuthService {
 
         Volley.newRequestQueue(context).add(findUserRequest)
     }
-
 }

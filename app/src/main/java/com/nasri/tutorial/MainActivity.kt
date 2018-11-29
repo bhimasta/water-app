@@ -306,16 +306,30 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun drinkWater(amount: Int) {
-        SummaryService.totalIntake += amount
-        var new_hydration = SummaryService.currentHydration + amount
-        if (new_hydration > 400)
-            new_hydration = 400
-        progressBar.setProgress(new_hydration)
-        changeObjectStage(new_hydration, SummaryService.objectType)
-        SummaryService.currentHydration = new_hydration
-        currentHydrationTxt.text = new_hydration.toString()
-        todayIntakeTxt.text = SummaryService.totalIntake.toString()
-        Toast.makeText(this, "$amount mL were added", Toast.LENGTH_LONG).show()
+        //save to Db
+        val ifNotif = 0
+        val currHydration = SummaryService.currentHydration
+        SummaryService.addIntakeOfUser(this, amount, currHydration, ifNotif) { intakeSuccess ->
+            if(intakeSuccess) {
+                //I think just call update function ??
+                updateCurrentSummaries()
+//                SummaryService.totalIntake += amount
+//                var new_hydration = SummaryService.currentHydration + amount
+//                if (new_hydration > 400)
+//                    new_hydration = 400
+//                progressBar.setProgress(new_hydration)
+//                changeObjectStage(new_hydration, SummaryService.objectType.toLowerCase())
+//                SummaryService.currentHydration = new_hydration
+//                currentHydrationTxt.text = new_hydration.toString()
+//                todayIntakeTxt.text = SummaryService.totalIntake.toString()
+                Toast.makeText(this, "$amount mL were added", Toast.LENGTH_LONG).show()
+
+            } else {
+
+                Toast.makeText(this, "Something is wrong!!", Toast.LENGTH_LONG).show()
+
+            }
+        }
     }
 
     fun beHydrate(amount: Int) {
@@ -327,7 +341,7 @@ class MainActivity : AppCompatActivity() {
             todayDieTxt.text = new_die.toString()
         }
         progressBar.setProgress(new_hydration)
-        changeObjectStage(new_hydration, SummaryService.objectType)
+        changeObjectStage(new_hydration, SummaryService.objectType.toLowerCase())
         SummaryService.currentHydration = new_hydration
         currentHydrationTxt.text = new_hydration.toString()
         todayIntakeTxt.text = SummaryService.totalIntake.toString()
@@ -335,11 +349,27 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun changeObjectStage(current: Int, type: String) {
+        var imgName = ""
         when {
-            current > 300 -> gifImageView.setImageResource(R.drawable.plant1)
-            current > 200 -> gifImageView.setImageResource(R.drawable.plant2)
-            current > 100 -> gifImageView.setImageResource(R.drawable.plant3)
-            current >= 0 -> gifImageView.setImageResource(R.drawable.plant4)
+            current > 300 -> imgName = type + "1"
+            current > 200 -> imgName = type + "2"
+            current > 100 -> imgName = type + "3"
+            current >= 0 -> imgName = type + "4"
+        }
+        println(imgName)
+        val resourceId = resources.getIdentifier(imgName, "drawable", packageName)
+        gifImageView.setImageResource(resourceId)
+    }
+
+    fun updateCurrentSummaries() {
+        AuthService.findTodaySummaryOfUser(this) { getSuccess ->
+            currentObjectType.text = SummaryService.objectType
+            currentHydrationTxt.text = SummaryService.currentHydration.toString()
+            todayIntakeTxt.text = SummaryService.totalIntake.toString()
+            todayDieTxt.text = SummaryService.totalDie.toString()
+            progressBar.setProgress(SummaryService.currentHydration)
+            changeObjectStage(SummaryService.currentHydration,
+                SummaryService.objectType.toLowerCase())
         }
     }
 
@@ -347,6 +377,7 @@ class MainActivity : AppCompatActivity() {
         LocalBroadcastManager.getInstance(this).registerReceiver(userDataChangeReceiver,
             IntentFilter(BROADCAST_USER_DATA_CHANGE)
         )
+        updateCurrentSummaries()
         super.onResume()
     }
 
@@ -358,6 +389,9 @@ class MainActivity : AppCompatActivity() {
                 currentHydrationTxt.text = SummaryService.currentHydration.toString()
                 todayIntakeTxt.text = SummaryService.totalIntake.toString()
                 todayDieTxt.text = SummaryService.totalDie.toString()
+                progressBar.setProgress(SummaryService.currentHydration)
+                changeObjectStage(SummaryService.currentHydration,
+                    SummaryService.objectType.toLowerCase())
             }
         }
     }

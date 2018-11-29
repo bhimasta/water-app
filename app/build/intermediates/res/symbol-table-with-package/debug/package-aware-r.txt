@@ -1010,6 +1010,10 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable active_dots
 drawable add
+drawable animal1
+drawable animal2
+drawable animal3
+drawable animal4
 drawable avd_hide_password
 drawable avd_show_password
 drawable design_bottom_navigation_item_background
@@ -1018,6 +1022,10 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable human1
+drawable human2
+drawable human3
+drawable human4
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
