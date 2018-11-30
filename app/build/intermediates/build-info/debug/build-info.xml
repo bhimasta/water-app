@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1543571364112"
+    timestamp="1543573735806"
     token="1438061118660887128"
     verifier="COMPATIBLE" >
 
@@ -15,13 +15,13 @@
         duration="0" />
     <task
         name="instant-run-dex"
-        duration="36" />
+        duration="96" />
     <task
         name="instant-run-transform"
-        duration="73" />
+        duration="80" />
     <task
         name="verifier"
-        duration="4" />
+        duration="100" />
 
     <artifact
         location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/reload-dex/debug/classes.dex"
@@ -91,6 +91,14 @@
     <build
         build-mode="HOT_WARM"
         timestamp="1543571364112"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/builds/debug/1543571364112/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1543573735806"
         verifier="COMPATIBLE" >
         <artifact
             location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/reload-dex/debug/classes.dex"

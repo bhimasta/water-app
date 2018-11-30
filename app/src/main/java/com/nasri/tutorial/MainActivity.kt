@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // need to be put in the sharedPreferences
         if(!AuthService.isLoggedIn) {
             Toast.makeText(this, "Please log in",
                 Toast.LENGTH_LONG).show()
@@ -77,6 +78,11 @@ class MainActivity : AppCompatActivity() {
         reduceHydrationBtn.setOnClickListener{
             beHydrate(34)
         }
+
+        // Create a timer that run this function every 3 minutes
+        // refreshDataRegularly()
+        //
+
 
         //自動跑看看
 //        var status = 100
