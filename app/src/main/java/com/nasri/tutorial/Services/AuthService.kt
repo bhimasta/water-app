@@ -7,15 +7,16 @@ import android.util.Log
 import com.android.volley.Response
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
+import com.nasri.tutorial.Controller.App
 import com.nasri.tutorial.Utilities.*
 import org.json.JSONException
 import org.json.JSONObject
 
 object AuthService {
-    var isLoggedIn = false
-    var userEmail = ""
-    var authToken = ""
-    var userName = ""
+//    var isLoggedIn = false
+//    var userEmail = ""
+//    var authToken = ""
+//    var userName = ""
 
     fun loginUser (context: Context, username: String, password: String, complete: (Boolean) -> Unit) {
         val jsonBody = JSONObject()
@@ -26,10 +27,10 @@ object AuthService {
         val loginRequest = object : JsonObjectRequest(Method.POST, URL_LOGIN, null, Response.Listener { response ->
             try {
                 val account = response.getJSONObject("account")
-                userName = account.getString("username")
-                userEmail = account.getString("email")
-                authToken = response.getString("auth_token")
-                isLoggedIn = true
+                App.prefs.userName = account.getString("username")
+                App.prefs.userEmail = account.getString("email")
+                App.prefs.authToken = response.getString("auth_token")
+                App.prefs.isLoggedIn = true
                 complete(true)
             } catch (e: JSONException) {
                 Log.d("JSON","EXCEPTION: " + e.localizedMessage)
@@ -48,7 +49,7 @@ object AuthService {
             }
         }
 
-        Volley.newRequestQueue(context).add(loginRequest)
+        App.prefs.requestQueue.add(loginRequest)
     }
 
     fun findTodaySummaryOfUser (context: Context, complete: (Boolean) -> Unit) {
@@ -79,7 +80,7 @@ object AuthService {
 
             override fun getHeaders(): MutableMap<String, String> {
                 val headers = HashMap<String, String>()
-                headers.put("Authorization", "Bearer $authToken")
+                headers.put("Authorization", "Bearer ${App.prefs.authToken}")
                 return headers
             }
         }

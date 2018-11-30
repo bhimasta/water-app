@@ -1133,7 +1133,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fab
 id fab1
 id fab2
 id fab3
@@ -1271,7 +1270,6 @@ id titleDividerNoCustom
 id title_template
 id todayDieTxt
 id todayIntakeTxt
-id toolbar
 id top
 id topPanel
 id touch_outside
@@ -1339,9 +1337,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
-layout activity_main2
 layout activity_welcome
-layout content_main2
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar

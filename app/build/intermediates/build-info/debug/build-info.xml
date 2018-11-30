@@ -2,70 +2,70 @@
 <instant-run
     abi="x86"
     api-level="26"
-    build-mode="HOT_WARM"
+    build-mode="COLD"
     density="420dpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1543573735806"
+    timestamp="1543585880923"
     token="1438061118660887128"
-    verifier="COMPATIBLE" >
+    verifier="METHOD_DELETED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="941" />
     <task
         name="instant-run-dex"
-        duration="96" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="80" />
+        duration="119" />
     <task
         name="verifier"
-        duration="100" />
+        duration="83" />
 
     <artifact
-        location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1543564561980"
+        timestamp="1543585248547"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
         <artifact
             location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
             location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
@@ -73,36 +73,11 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1543571168846"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1543585880923"
+        verifier="METHOD_DELETED" >
         <artifact
-            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1543571235105"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/builds/debug/1543571235105/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1543571364112"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/builds/debug/1543571364112/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1543573735806"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

@@ -11,6 +11,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name="com.nasri.tutorial.Controller.App"
         android:allowBackup="true"
         android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
@@ -21,22 +22,17 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.nasri.tutorial.MainActivity"
+            android:name="com.nasri.tutorial.Controller.MainActivity"
             android:windowSoftInputMode="stateAlwaysHidden" />
         //變成Welcome先
-        <activity android:name="com.nasri.tutorial.WelcomeActivity" >
+        <activity android:name="com.nasri.tutorial.Controller.WelcomeActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.nasri.tutorial.LoginActivity" >
-        </activity>
-        <activity
-            android:name="com.nasri.tutorial.Main2Activity"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/AppTheme" >
+        <activity android:name="com.nasri.tutorial.Controller.LoginActivity" >
         </activity>
 
         <provider

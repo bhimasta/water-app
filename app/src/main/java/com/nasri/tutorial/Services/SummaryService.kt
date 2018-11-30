@@ -8,6 +8,7 @@ import com.android.volley.Response
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
+import com.nasri.tutorial.Controller.App
 import com.nasri.tutorial.Utilities.BASE_URL
 import com.nasri.tutorial.Utilities.BROADCAST_USER_DATA_CHANGE
 import com.nasri.tutorial.Utilities.URL_SUMMARY
@@ -59,7 +60,7 @@ object SummaryService {
 
             override fun getHeaders(): MutableMap<String, String> {
                 val headers = HashMap<String, String>()
-                headers.put("Authorization", "Bearer ${AuthService.authToken}")
+                headers.put("Authorization", "Bearer ${App.prefs.authToken}")
                 return headers
             }
         }
