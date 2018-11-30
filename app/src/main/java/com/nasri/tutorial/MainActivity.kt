@@ -1,6 +1,13 @@
 package com.nasri.tutorial
 
+import android.app.Notification
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.app.PendingIntent
 import android.content.*
+import android.graphics.BitmapFactory
+import android.graphics.Color
+import android.os.Build
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.design.widget.FloatingActionButton
@@ -16,6 +23,9 @@ import com.nasri.tutorial.Services.AuthService
 import com.nasri.tutorial.Services.SummaryService
 import com.nasri.tutorial.Utilities.BROADCAST_USER_DATA_CHANGE
 import kotlinx.android.synthetic.main.activity_main.*
+import java.util.*
+import java.util.Timer
+import kotlin.concurrent.schedule
 
 class MainActivity : AppCompatActivity() {
 
@@ -30,6 +40,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var rotate_cw: Animation
     lateinit var rotate_ccw: Animation
     var isOpen: Boolean = false
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -64,7 +75,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         reduceHydrationBtn.setOnClickListener{
-            beHydrate(5)
+            beHydrate(34)
         }
 
         //自動跑看看
@@ -313,39 +324,13 @@ class MainActivity : AppCompatActivity() {
             if(intakeSuccess) {
                 //I think just call update function ??
                 updateCurrentSummaries()
-//                SummaryService.totalIntake += amount
-//                var new_hydration = SummaryService.currentHydration + amount
-//                if (new_hydration > 400)
-//                    new_hydration = 400
-//                progressBar.setProgress(new_hydration)
-//                changeObjectStage(new_hydration, SummaryService.objectType.toLowerCase())
-//                SummaryService.currentHydration = new_hydration
-//                currentHydrationTxt.text = new_hydration.toString()
-//                todayIntakeTxt.text = SummaryService.totalIntake.toString()
                 Toast.makeText(this, "$amount mL were added", Toast.LENGTH_LONG).show()
-
             } else {
 
                 Toast.makeText(this, "Something is wrong!!", Toast.LENGTH_LONG).show()
 
             }
         }
-    }
-
-    fun beHydrate(amount: Int) {
-        var new_hydration = SummaryService.currentHydration - amount
-        if (new_hydration <= 0) {
-            new_hydration = 400
-            val new_die = SummaryService.totalDie + 1
-            SummaryService.totalDie = new_die
-            todayDieTxt.text = new_die.toString()
-        }
-        progressBar.setProgress(new_hydration)
-        changeObjectStage(new_hydration, SummaryService.objectType.toLowerCase())
-        SummaryService.currentHydration = new_hydration
-        currentHydrationTxt.text = new_hydration.toString()
-        todayIntakeTxt.text = SummaryService.totalIntake.toString()
-        Toast.makeText(this, "$amount mL hydration reduced", Toast.LENGTH_LONG).show()
     }
 
     fun changeObjectStage(current: Int, type: String) {
@@ -356,7 +341,6 @@ class MainActivity : AppCompatActivity() {
             current > 100 -> imgName = type + "3"
             current >= 0 -> imgName = type + "4"
         }
-        println(imgName)
         val resourceId = resources.getIdentifier(imgName, "drawable", packageName)
         gifImageView.setImageResource(resourceId)
     }
@@ -396,6 +380,39 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    // delete this later
+    fun beHydrate(amount: Int) {
+        var new_hydration = SummaryService.currentHydration - amount
+        if (new_hydration <= 0) {
+            new_hydration = 400
+            val new_die = SummaryService.totalDie + 1
+            SummaryService.totalDie = new_die
+            todayDieTxt.text = new_die.toString()
+        }
+        progressBar.setProgress(new_hydration)
+        changeObjectStage(new_hydration, SummaryService.objectType.toLowerCase())
+        SummaryService.currentHydration = new_hydration
+        currentHydrationTxt.text = new_hydration.toString()
+        todayIntakeTxt.text = SummaryService.totalIntake.toString()
+        Toast.makeText(this, "$amount mL hydration reduced", Toast.LENGTH_LONG).show()
+        var h = SummaryService.currentHydration
+        when {
+            h < 100 -> notification()
+            h >= 160 && h <= 200 -> notification()
+            h >= 270 && h <= 300 -> notification()
+        }
+    }
+
+    fun refreshDataRegularly() {
+        updateCurrentSummaries()
+        val h = SummaryService.currentHydration
+        when {
+            h < 100 -> notification()
+            h >= 160 && h <= 200 -> notification()
+            h >= 270 && h <= 300 -> notification()
+        }
+    }
+
     fun loadSlides(v: View)
     {
         PreferenceManager(this).clearPreference()
@@ -411,76 +428,76 @@ class MainActivity : AppCompatActivity() {
         finish()
     }
 
-    private fun showDialog(){
-        lateinit var dialog: AlertDialog
-        var builder = AlertDialog.Builder(this)
-        builder.setTitle("You Bad Bad")
-        builder.setMessage("You bad bad the item died lol!")
-
-        val dialogClickListener = DialogInterface.OnClickListener{ _, which ->
-            when(which){
-                DialogInterface.BUTTON_POSITIVE -> {
-                    toast("You are going to continue the challenge!!")
-                    loadAgain()
-                }
-                DialogInterface.BUTTON_NEGATIVE -> toast("You fuck off")
-                DialogInterface.BUTTON_NEUTRAL -> toast("You are staying in the same page")
-            }
-        }
-        // Set the alert dialog positive/yes button
-        builder.setPositiveButton("YES",dialogClickListener)
-        // Set the alert dialog negative/no button
-        builder.setNegativeButton("NO",dialogClickListener)
-        // Set the alert dialog neutral/cancel button
-        builder.setNeutralButton("CANCEL",dialogClickListener)
-
-        // Initialize the AlertDialog using builder object
-        dialog = builder.create()
-        // Finally, display the alert dialog
-        dialog.show()
-    }
+//    private fun showDialog(){
+//        lateinit var dialog: AlertDialog
+//        var builder = AlertDialog.Builder(this)
+//        builder.setTitle("You Bad Bad")
+//        builder.setMessage("You bad bad the item died lol!")
+//
+//        val dialogClickListener = DialogInterface.OnClickListener{ _, which ->
+//            when(which){
+//                DialogInterface.BUTTON_POSITIVE -> {
+//                    toast("You are going to continue the challenge!!")
+//                    loadAgain()
+//                }
+//                DialogInterface.BUTTON_NEGATIVE -> toast("You fuck off")
+//                DialogInterface.BUTTON_NEUTRAL -> toast("You are staying in the same page")
+//            }
+//        }
+//        // Set the alert dialog positive/yes button
+//        builder.setPositiveButton("YES",dialogClickListener)
+//        // Set the alert dialog negative/no button
+//        builder.setNegativeButton("NO",dialogClickListener)
+//        // Set the alert dialog neutral/cancel button
+//        builder.setNeutralButton("CANCEL",dialogClickListener)
+//
+//        // Initialize the AlertDialog using builder object
+//        dialog = builder.create()
+//        // Finally, display the alert dialog
+//        dialog.show()
+//    }
 
     //function notification
-//    private fun notification(){
-//
-//        var notificationManager : NotificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-//        lateinit var notificationChannel : NotificationChannel
-//        lateinit var builder : Notification.Builder
-//        val channelId = "com.nasri.notification"
-//        val description = "Go drink some water, stay hydrated"
-//
-//        val landingIntent = Intent(this, MainActivity::class.java)
-//        landingIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-//        landingIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
-//
-//        val pendingIntent = PendingIntent.getActivity(this, 0, landingIntent, PendingIntent.FLAG_ONE_SHOT)
-//
-//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
-//        {
-//            notificationChannel = NotificationChannel(channelId, description, NotificationManager.IMPORTANCE_HIGH)
-//            notificationChannel.enableLights(true)
-//            notificationChannel.lightColor = Color.GREEN
-//            notificationChannel.enableVibration(false)
-//            notificationManager.createNotificationChannel(notificationChannel)
-//
-//            builder = Notification.Builder(this, channelId)
-//                .setContentTitle("Drink_Notification")
-//                .setContentText("Test Notification")
-//                .setSmallIcon(R.drawable.one)
-//                .setLargeIcon(BitmapFactory.decodeResource(this.resources, R.drawable.one))
-//                .setContentIntent(pendingIntent)
-//        }else{
-//
-//            builder = Notification.Builder(this)
-//                .setContentTitle("Drink_Notification")
-//                .setContentText("Test Notification")
-//                .setSmallIcon(R.drawable.two)
-//                .setLargeIcon(BitmapFactory.decodeResource(this.resources, R.drawable.two))
-//                .setContentIntent(pendingIntent)
-//        }
-//
-//        notificationManager.notify(1234, builder.build())
-//    }
+    private fun notification(){
+
+        var notificationManager : NotificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+        lateinit var notificationChannel : NotificationChannel
+        lateinit var builder : Notification.Builder
+        val channelId = "com.nasri.notification"
+        val description = "Go drink some water, stay hydrated"
+
+        val landingIntent = Intent(this, MainActivity::class.java)
+        landingIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        landingIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
+
+        val pendingIntent = PendingIntent.getActivity(this, 0, landingIntent, PendingIntent.FLAG_ONE_SHOT)
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
+        {
+            notificationChannel = NotificationChannel(channelId, description, NotificationManager.IMPORTANCE_HIGH)
+            notificationChannel.enableLights(true)
+            notificationChannel.lightColor = Color.GREEN
+            notificationChannel.enableVibration(false)
+            notificationManager.createNotificationChannel(notificationChannel)
+
+            builder = Notification.Builder(this, channelId)
+                .setContentTitle("Drink_Notification")
+                .setContentText("Test Notification")
+                .setSmallIcon(R.drawable.one)
+                .setLargeIcon(BitmapFactory.decodeResource(this.resources, R.drawable.one))
+                .setContentIntent(pendingIntent)
+        }else{
+
+            builder = Notification.Builder(this)
+                .setContentTitle("Drink_Notification")
+                .setContentText("Test Notification")
+                .setSmallIcon(R.drawable.two)
+                .setLargeIcon(BitmapFactory.decodeResource(this.resources, R.drawable.two))
+                .setContentIntent(pendingIntent)
+        }
+
+        notificationManager.notify(1234, builder.build())
+    }
 
 }
 
