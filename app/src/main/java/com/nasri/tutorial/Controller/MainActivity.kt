@@ -27,7 +27,12 @@ import com.nasri.tutorial.Utilities.BROADCAST_USER_DATA_CHANGE
 import kotlinx.android.synthetic.main.activity_main.*
 import android.support.v4.os.HandlerCompat.postDelayed
 import android.util.Log
+import androidx.work.PeriodicWorkRequest
+import androidx.work.WorkManager
+import com.nasri.tutorial.Workers.UpdateWorker
+import android.arch.lifecycle.Observer
 import java.util.*
+import java.util.concurrent.TimeUnit
 
 
 class MainActivity : AppCompatActivity() {
@@ -87,9 +92,23 @@ class MainActivity : AppCompatActivity() {
             updateCurrentSummaries()
         }
 
+        logoutBtn.setOnClickListener{
+            App.prefs.isFirstTime = false
+            App.prefs.isLoggedIn = false
+            val firstTimeIntent = Intent(this, WelcomeActivity::class.java)
+            startActivity(firstTimeIntent)
+        }
+        // Push Notification
         PushNotifications.start(getApplicationContext(), "a236022d-cd36-4b3f-b85f-a108953a7c20");
         PushNotifications.subscribe("hello");
         PushNotifications.subscribe(App.prefs.userName.toString().replace(" ",""));
+
+        // Recurring Worker : Refresh every 15 minutes
+        val reccuringWork : PeriodicWorkRequest = PeriodicWorkRequest.Builder(UpdateWorker::class.java,
+            15,TimeUnit.MINUTES).addTag("update-summary").build()
+
+        val workManager = WorkManager.getInstance()
+        workManager.enqueue(reccuringWork)
 
         //Floating Action Button
         //set floating button
@@ -188,6 +207,12 @@ class MainActivity : AppCompatActivity() {
         updateCurrentSummaries()
         super.onResume()
     }
+
+    override fun onDestroy() {
+        LocalBroadcastManager.getInstance(this).unregisterReceiver(userDataChangeReceiver)
+        super.onDestroy()
+    }
+
 
     private val userDataChangeReceiver = object : BroadcastReceiver() {
         override fun onReceive(context: Context?, intent: Intent?) {

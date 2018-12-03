@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Dec 03 11:24:54 CST 2018
+#Mon Dec 03 12:01:24 CST 2018
 17.baseType=DIRECTORY
 4.path=lib/x86/libpl_droidsonroids_gif_surface.so
 22.set=DEX

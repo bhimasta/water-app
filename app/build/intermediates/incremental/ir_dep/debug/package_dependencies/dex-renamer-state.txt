@@ -1,4 +1,4 @@
-#Mon Dec 03 11:24:52 CST 2018
+#Mon Dec 03 12:01:22 CST 2018
 base.0=/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/transforms/dexMerger/debug/10
 path.0=classes.dex
 renamed.0=classes.dex

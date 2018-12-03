@@ -12,6 +12,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/sapi
 MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.1.17] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/android-gif-drawable-1.1.17.aar/83ccca288ee52d83706a4161914c80f3/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/2a74585eace03b8b60b2b7dbae460bb4/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-messaging:17.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/101e3fe1bf7cbcff2d97137be465e913/AndroidManifest.xml:17:1-37:12
+MERGED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:17:1-118:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/26958e85e188fb67f9680f8c34427086/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/fbbdda5717c5b7e7678c1eb5993cfa55/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:transition:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/12f8b4b56a118be3234ea17161cb0411/AndroidManifest.xml:17:1-22:12
@@ -31,7 +32,9 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/a43dc6726e55b689fb8cfa9c39cbb8fd/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:26.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/12e7b194b2d10e3cde50c23b9a0c4733/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/47ac3a9d108f3c4691092fd87b746fd6/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/30564aed1ba789b83347b1d09703a647/AndroidManifest.xml:17:1-30:12
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/afe3033b70eecfeea6b646cd42827142/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1-rc1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1-rc1.aar/10ec6e11126b844f1a54ebd4cda9d2d4/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/8720e000ae82c1b34c5a96db6ba65e49/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/dad2b18db3c275a8f0574fa6ca4725bb/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:loader:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/1556a6b9cf121b6b75f5a4dd4d2b1371/AndroidManifest.xml:17:1-22:12
@@ -46,14 +49,16 @@ MERGED from [com.android.support:support-compat:28.0.0] /Users/sapidelman7/.grad
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d616d8efe3f8cdd82335dcbc89cbb012/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:cursoradapter:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/1e64a6189f2732cb4ae6de731f750c73/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/865061a05a81e0de73bb6441120b06e0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1-rc1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1-rc1.aar/32debea768f93ba02cb72184d27214a8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1-rc1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/db-1.1.1-rc1.aar/982baa7e1c94262fd4cef8edf3ef8f90/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f4bea68a043ef97896840a4d803998d4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1dce3aeb640daf471ae054e819330822/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/edf1c6572d9167cdf1a4489db2dc4e23/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/752b918e174add09befb99cdeec81e5e/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1d381bc7c6b1bd6897c6337603e6c8ec/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:documentfile:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e813d1c7d6f440d77184306593ae953d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/f23040809d61697d5c52f131f8c503ae/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/c13df8efc801df34f20c556044ab1fad/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1dce3aeb640daf471ae054e819330822/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/71fd1a2e293ad5cf0af34fb56e16c2b5/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/87e12e6a8380d68c6a8d3f0b69e7d9c5/AndroidManifest.xml:17:1-24:12
 INJECTED from /Volumes/500GB/Downloads/tutorial_combination2/app/src/main/AndroidManifest.xml:2:1-30:12
@@ -99,6 +104,8 @@ MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/sapidelman7/.gradl
 MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/2a74585eace03b8b60b2b7dbae460bb4/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-messaging:17.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/101e3fe1bf7cbcff2d97137be465e913/AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-messaging:17.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/101e3fe1bf7cbcff2d97137be465e913/AndroidManifest.xml:22:5-35:19
+MERGED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:27:5-116:19
+MERGED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:27:5-116:19
 MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/1a1cdeb204eb865f14a0ec59fbaa7561/AndroidManifest.xml:26:5-40:19
 MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/1a1cdeb204eb865f14a0ec59fbaa7561/AndroidManifest.xml:26:5-40:19
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0fdd22c4ad18197fe285dcc580acd23f/AndroidManifest.xml:26:5-32:19
@@ -129,6 +136,8 @@ MERGED from [com.android.support:support-v4:26.1.0] /Users/sapidelman7/.gradle/c
 MERGED from [com.android.support:support-v4:26.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/12e7b194b2d10e3cde50c23b9a0c4733/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/47ac3a9d108f3c4691092fd87b746fd6/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/47ac3a9d108f3c4691092fd87b746fd6/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/30564aed1ba789b83347b1d09703a647/AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/30564aed1ba789b83347b1d09703a647/AndroidManifest.xml:22:5-28:19
 MERGED from [com.android.support:support-compat:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9f940d171f7008040c8e605acd966ec2/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9f940d171f7008040c8e605acd966ec2/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d616d8efe3f8cdd82335dcbc89cbb012/AndroidManifest.xml:22:5-23:19
@@ -195,6 +204,8 @@ MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/sapidelman7/.gradl
 MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/2a74585eace03b8b60b2b7dbae460bb4/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-messaging:17.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/101e3fe1bf7cbcff2d97137be465e913/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-messaging:17.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/101e3fe1bf7cbcff2d97137be465e913/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:21:5-44
+MERGED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:21:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/26958e85e188fb67f9680f8c34427086/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/26958e85e188fb67f9680f8c34427086/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/fbbdda5717c5b7e7678c1eb5993cfa55/AndroidManifest.xml:20:5-44
@@ -233,8 +244,12 @@ MERGED from [com.android.support:support-v4:26.1.0] /Users/sapidelman7/.gradle/c
 MERGED from [com.android.support:support-v4:26.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/12e7b194b2d10e3cde50c23b9a0c4733/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/47ac3a9d108f3c4691092fd87b746fd6/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/47ac3a9d108f3c4691092fd87b746fd6/AndroidManifest.xml:21:5-23:63
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/30564aed1ba789b83347b1d09703a647/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/30564aed1ba789b83347b1d09703a647/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/afe3033b70eecfeea6b646cd42827142/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/afe3033b70eecfeea6b646cd42827142/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1-rc1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1-rc1.aar/10ec6e11126b844f1a54ebd4cda9d2d4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1-rc1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1-rc1.aar/10ec6e11126b844f1a54ebd4cda9d2d4/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/8720e000ae82c1b34c5a96db6ba65e49/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/8720e000ae82c1b34c5a96db6ba65e49/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/dad2b18db3c275a8f0574fa6ca4725bb/AndroidManifest.xml:20:5-44
@@ -263,8 +278,14 @@ MERGED from [com.android.support:cursoradapter:28.0.0] /Users/sapidelman7/.gradl
 MERGED from [com.android.support:cursoradapter:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/1e64a6189f2732cb4ae6de731f750c73/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/865061a05a81e0de73bb6441120b06e0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/865061a05a81e0de73bb6441120b06e0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1-rc1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1-rc1.aar/32debea768f93ba02cb72184d27214a8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1-rc1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1-rc1.aar/32debea768f93ba02cb72184d27214a8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1-rc1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/db-1.1.1-rc1.aar/982baa7e1c94262fd4cef8edf3ef8f90/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1-rc1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/db-1.1.1-rc1.aar/982baa7e1c94262fd4cef8edf3ef8f90/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f4bea68a043ef97896840a4d803998d4/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f4bea68a043ef97896840a4d803998d4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1dce3aeb640daf471ae054e819330822/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1dce3aeb640daf471ae054e819330822/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/edf1c6572d9167cdf1a4489db2dc4e23/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/edf1c6572d9167cdf1a4489db2dc4e23/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/752b918e174add09befb99cdeec81e5e/AndroidManifest.xml:20:5-44
@@ -277,8 +298,6 @@ MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/sapidelman
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/f23040809d61697d5c52f131f8c503ae/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:print:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/c13df8efc801df34f20c556044ab1fad/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:print:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/c13df8efc801df34f20c556044ab1fad/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1dce3aeb640daf471ae054e819330822/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1dce3aeb640daf471ae054e819330822/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/71fd1a2e293ad5cf0af34fb56e16c2b5/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/71fd1a2e293ad5cf0af34fb56e16c2b5/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/87e12e6a8380d68c6a8d3f0b69e7d9c5/AndroidManifest.xml:20:5-44
@@ -403,6 +422,204 @@ ADDED from [com.google.firebase:firebase-messaging:17.1.0] /Users/sapidelman7/.g
 		ADDED from [com.google.firebase:firebase-messaging:17.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/101e3fe1bf7cbcff2d97137be465e913/AndroidManifest.xml:30:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-messaging:17.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/101e3fe1bf7cbcff2d97137be465e913/AndroidManifest.xml:29:13-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:23:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0fdd22c4ad18197fe285dcc580acd23f/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0fdd22c4ad18197fe285dcc580acd23f/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/9abfd96629f7afc058559e696b18d3ff/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/9abfd96629f7afc058559e696b18d3ff/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/8f8a3d59923ba98c9270e5d9ca0c25af/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/8f8a3d59923ba98c9270e5d9ca0c25af/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/43216d58dc1b1127c506c9a4e0ccf8d5/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/43216d58dc1b1127c506c9a4e0ccf8d5/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:23:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0fdd22c4ad18197fe285dcc580acd23f/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0fdd22c4ad18197fe285dcc580acd23f/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/9abfd96629f7afc058559e696b18d3ff/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/9abfd96629f7afc058559e696b18d3ff/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/8f8a3d59923ba98c9270e5d9ca0c25af/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/8f8a3d59923ba98c9270e5d9ca0c25af/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/43216d58dc1b1127c506c9a4e0ccf8d5/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/43216d58dc1b1127c506c9a4e0ccf8d5/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:25:22-78
+provider#androidx.work.impl.WorkManagerInitializer
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:28:9-34:35
+	android:authorities
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:30:13-68
+	android:multiprocess
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:33:13-40
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:32:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:31:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:29:13-69
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:36:9-41:35
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:39:13-72
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:40:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:41:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:37:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:42:9-48:35
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:45:13-70
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:46:13-36
+	android:permission
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:47:13-69
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:48:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:44:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:43:13-84
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:50:9-55:35
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:53:13-35
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:54:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:55:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:52:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:51:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:56:9-65:20
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:59:13-36
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:60:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:58:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:57:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:61:13-64:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:62:17-87
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:62:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:63:17-90
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:63:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:66:9-75:20
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:69:13-36
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:70:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:68:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:67:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:71:13-74:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:72:17-77
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:72:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:73:17-76
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:73:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:76:9-85:20
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:79:13-36
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:80:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:78:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:77:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:81:13-84:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:82:17-83
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:82:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:83:17-82
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:83:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:86:9-94:20
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:89:13-36
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:90:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:88:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:87:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:91:13-93:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:92:17-79
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:92:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:95:9-105:20
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:98:13-36
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:99:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:97:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:96:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:100:13-104:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:101:17-79
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:101:25-76
+action#android.intent.action.TIME_SET
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:102:17-73
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:102:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:103:17-81
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:103:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:106:9-115:20
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:109:13-72
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:110:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:111:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:108:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:107:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:112:13-114:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:113:17-98
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.0-alpha10] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/work-runtime-1.0.0-alpha10.aar/885ffbd4d4701baedf542378b1a6c9c7/AndroidManifest.xml:113:25-95
 service#com.firebase.jobdispatcher.GooglePlayReceiver
 ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/1a1cdeb204eb865f14a0ec59fbaa7561/AndroidManifest.xml:32:9-39:19
 	android:exported
@@ -417,26 +634,6 @@ action#com.google.android.gms.gcm.ACTION_TASK_READY
 ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/1a1cdeb204eb865f14a0ec59fbaa7561/AndroidManifest.xml:37:17-87
 	android:name
 		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/1a1cdeb204eb865f14a0ec59fbaa7561/AndroidManifest.xml:37:25-84
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0fdd22c4ad18197fe285dcc580acd23f/AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/9abfd96629f7afc058559e696b18d3ff/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/9abfd96629f7afc058559e696b18d3ff/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/8f8a3d59923ba98c9270e5d9ca0c25af/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/8f8a3d59923ba98c9270e5d9ca0c25af/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/43216d58dc1b1127c506c9a4e0ccf8d5/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/43216d58dc1b1127c506c9a4e0ccf8d5/AndroidManifest.xml:22:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0fdd22c4ad18197fe285dcc580acd23f/AndroidManifest.xml:23:22-76
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0fdd22c4ad18197fe285dcc580acd23f/AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/9abfd96629f7afc058559e696b18d3ff/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/9abfd96629f7afc058559e696b18d3ff/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/8f8a3d59923ba98c9270e5d9ca0c25af/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/8f8a3d59923ba98c9270e5d9ca0c25af/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/43216d58dc1b1127c506c9a4e0ccf8d5/AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/43216d58dc1b1127c506c9a4e0ccf8d5/AndroidManifest.xml:24:5-68
-	android:name
-		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0fdd22c4ad18197fe285dcc580acd23f/AndroidManifest.xml:24:22-65
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0fdd22c4ad18197fe285dcc580acd23f/AndroidManifest.xml:27:9-31:19
 MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/43216d58dc1b1127c506c9a4e0ccf8d5/AndroidManifest.xml:35:9-39:19
@@ -563,3 +760,13 @@ MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sapidelman7
 		ADDED from [com.android.support:support-v4:26.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/12e7b194b2d10e3cde50c23b9a0c4733/AndroidManifest.xml:28:13-35
 	android:name
 		ADDED from [com.android.support:support-v4:26.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/12e7b194b2d10e3cde50c23b9a0c4733/AndroidManifest.xml:27:13-51
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/30564aed1ba789b83347b1d09703a647/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/30564aed1ba789b83347b1d09703a647/AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/30564aed1ba789b83347b1d09703a647/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/30564aed1ba789b83347b1d09703a647/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/30564aed1ba789b83347b1d09703a647/AndroidManifest.xml:24:13-83
