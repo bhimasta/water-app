@@ -32,18 +32,17 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
-    //For Floating Action Button
+    // For Floating Action Button
     lateinit var fab_main: FloatingActionButton
     lateinit var fab_sub1: FloatingActionButton
     lateinit var fab_sub2: FloatingActionButton
     lateinit var fab_sub3: FloatingActionButton
-//    lateinit var toolbar: Toolbar
+    // lateinit var toolbar: Toolbar
     lateinit var fab_open: Animation
     lateinit var fab_close: Animation
     lateinit var rotate_cw: Animation
     lateinit var rotate_ccw: Animation
     var isOpen: Boolean = false
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -64,7 +63,7 @@ class MainActivity : AppCompatActivity() {
 
         val progressBar = findViewById<ProgressBar>(R.id.progressBar) as ProgressBar
 
-        val butt = findViewById<Button>(R.id.progress_bar_increase) as Button
+        // val butt = findViewById<Button>(R.id.progress_bar_increase) as Button
 
         // 自動跑看看
 
@@ -84,212 +83,17 @@ class MainActivity : AppCompatActivity() {
             beHydrate(34)
         }
 
+        refreshHydrationBtn.setOnClickListener{
+            updateCurrentSummaries()
+        }
+
         PushNotifications.start(getApplicationContext(), "a236022d-cd36-4b3f-b85f-a108953a7c20");
         PushNotifications.subscribe("hello");
         PushNotifications.subscribe(App.prefs.userName.toString().replace(" ",""));
-        // Create a timer that run this function every 3 minutes
-        // refreshDataRegularly()
-//        val handler = Handler()
-//        handler.postDelayed(object : Runnable {
-//            override fun run() {
-//                Log.d("Regular","refreshed the screen")
-//                handler.postDelayed(this, 2 * 60 * 1000) //now is every 2 minutes
-//            }
-//        }, 0) //Every 120000 ms (2 minutes)
-
-
-        //自動跑看看
-//        var status = 100
-//
-//        Thread(Runnable{ //實現功能，刷新UI介面(to renew the UI interface)
-//            while(status >= 0){
-//
-//                //stage 1 滿的狀態
-//                while(status > 75) {
-//                    status -= 1
-//
-//                    //要轉成flower1，不然從stage3 或是 stage2 轉匯成stage1後會沒有圖片可以接，變成flower4(convert it to flower one)
-//                    this@MainActivity.runOnUiThread {
-//                        this.gifImageView.setImageResource(R.drawable.plant1)
-//                    }
-//
-//
-//                    //按一下回100
-//                    /*progress_bar_increase.setOnClickListener {
-//                       // if(status > 0) {
-//                            status = 100
-//                            //gifImageView.setImageResource(R.drawable.plant1)
-//                        //}else{showDialog()}
-//                    }*/
-//
-//                    try {
-//                        Thread.sleep(100)
-//                        progressBar.setProgress(status)
-//                    } catch (e: Exception) {
-//                        Log.e("Error", e.message)
-//                    }
-//                }
-//
-//                //滿的時候不給按(Unclickable when the bar is full)
-//                this@MainActivity.runOnUiThread{
-//                    fab_sub1.isClickable = false
-//                    fab_sub2.isClickable = false
-//                    fab_sub3.isClickable = false
-//                    //(fab_main as View).visibility = View.VISIBLE
-//                }
-//
-//
-//                //要用runOnUiThread，因為直接換會閃退，非UI元件不可以直接換UI，要重新設一個Thread(to change the things on UI)
-//                //轉場 plant1 -> plant2
-//                this@MainActivity.runOnUiThread {
-//                    this.gifImageView.setImageResource(R.drawable.plant2)
-//                }
-////                notification() //send notification when change state
-//
-//                //stage 2 四分之三
-//                while (status in 50..75){
-//                    status -= 1
-//
-//                    fab_sub1.setOnClickListener{
-//                        Toast.makeText(applicationContext, "One was clicked", Toast.LENGTH_LONG).show()
-//                        status = 100
-//                        this@MainActivity.runOnUiThread {
-//                            this.gifImageView.setImageResource(R.drawable.plant1)
-//                        }
-//                    }
-//                    fab_sub2.setOnClickListener{
-//                        Toast.makeText(applicationContext, "Two was clicked", Toast.LENGTH_LONG).show()
-//                        status = 100
-//                        this@MainActivity.runOnUiThread {
-//                            this.gifImageView.setImageResource(R.drawable.plant1)
-//                        }
-//                    }
-//                    fab_sub3.setOnClickListener{
-//                        Toast.makeText(applicationContext, "Three was clicked", Toast.LENGTH_LONG).show()
-//                        status = 100
-//                        this@MainActivity.runOnUiThread {
-//                            this.gifImageView.setImageResource(R.drawable.plant1)
-//                        }
-//                    }
-//
-//                    //開始給按(make the button clickable when it's not full)
-//                    this@MainActivity.runOnUiThread{
-//                        fab_sub1.isClickable = true
-//                        fab_sub2.isClickable = true
-//                        fab_sub3.isClickable = true
-//                        //(fab_main as View).visibility = View.VISIBLE
-//                    }
-//
-//                    try {
-//                        Thread.sleep(100)
-//                        progressBar.setProgress(status)
-//                    } catch (e: Exception) {
-//                        Log.e("Error", e.message)
-//                    }
-//                }
-//
-//                //轉場 plant2 -> plant3
-//                this@MainActivity.runOnUiThread {
-//                    this.gifImageView.setImageResource(R.drawable.plant3)
-//                }
-////                notification() //send notification when change state
-//
-//                //stage 3 二分之一
-//                while (status in 25..50){
-//                    status -= 1
-//
-//                    fab_sub1.setOnClickListener{
-//                        Toast.makeText(applicationContext, "One was clicked", Toast.LENGTH_LONG).show()
-//                        status = 100
-//                        this@MainActivity.runOnUiThread {
-//                            this.gifImageView.setImageResource(R.drawable.plant1)
-//                        }
-//                    }
-//                    fab_sub2.setOnClickListener{
-//                        Toast.makeText(applicationContext, "Two was clicked", Toast.LENGTH_LONG).show()
-//                        status = 100
-//                        this@MainActivity.runOnUiThread {
-//                            this.gifImageView.setImageResource(R.drawable.plant1)
-//                        }
-//                    }
-//                    fab_sub3.setOnClickListener{
-//                        Toast.makeText(applicationContext, "Three was clicked", Toast.LENGTH_LONG).show()
-//                        status += 25
-//                        this@MainActivity.runOnUiThread {
-//                            this.gifImageView.setImageResource(R.drawable.plant2)
-//                        }
-//                    }
-//
-//                    try {
-//                        Thread.sleep(100)
-//                        progressBar.setProgress(status)
-//                    } catch (e: Exception) {
-//                        Log.e("Error", e.message)
-//                    }
-//                }
-//
-//                //轉場 plant3 -> plant4
-//                this@MainActivity.runOnUiThread {
-//                    this.gifImageView.setImageResource(R.drawable.plant4)
-//                }
-////                notification() //send notification when change state
-//
-//                //stage 4 四分之一
-//                while (status in 0..25){
-//                    status -= 1
-//
-//                    //0的時候重新啟動(restart when decrease to 0)
-//                    stop.setOnClickListener {
-//                        if(status > 0) {
-//                            Toast.makeText(applicationContext, "Can't restart yet", Toast.LENGTH_LONG).show()
-//                        }
-//                        else{showDialog()}
-//                    }
-//
-//                    fab_sub1.setOnClickListener {
-//                        Toast.makeText(applicationContext, "One was clicked", Toast.LENGTH_LONG).show()
-//                        status = 100
-//                        this@MainActivity.runOnUiThread {
-//                            this.gifImageView.setImageResource(R.drawable.plant1)
-//                        }
-//                    }
-//                    fab_sub2.setOnClickListener{
-//                        Toast.makeText(applicationContext, "Two was clicked", Toast.LENGTH_LONG).show()
-//                        status += 50
-//                        this@MainActivity.runOnUiThread {
-//                            this.gifImageView.setImageResource(R.drawable.plant2)
-//                        }
-//                    }
-//                    fab_sub3.setOnClickListener {
-//                        Toast.makeText(applicationContext, "Three was clicked", Toast.LENGTH_LONG).show()
-//                        status += 25
-//                        this@MainActivity.runOnUiThread {
-//                            this.gifImageView.setImageResource(R.drawable.plant3)
-//                        }
-//                    }
-//
-//                    try {
-//                        Thread.sleep(100)
-//                        progressBar.setProgress(status)
-//                    } catch (e: Exception) {
-//                        Log.e("Error", e.message)
-//                    }
-//
-//                }
-////                notification() //send notification when change state
-//
-//                stop.setOnClickListener {
-//                    if(status > 0) {
-//                        Toast.makeText(applicationContext, "Can't restart yet", Toast.LENGTH_LONG).show()
-//                    }
-//                    else{showDialog()}
-//                }
-//            }
-//        }).start()
 
         //Floating Action Button
         //set floating button
-//        toolbar = findViewById(R.id.toolbar) as Toolbar
+        //toolbar = findViewById(R.id.toolbar) as Toolbar
         //setSupportActionBar(toolbar)
         fab_main = findViewById(R.id.fabmain) as FloatingActionButton
         fab_sub1 = findViewById(R.id.fab1) as FloatingActionButton
@@ -439,35 +243,6 @@ class MainActivity : AppCompatActivity() {
         startActivity(Intent(this, MainActivity::class.java))
         finish()
     }
-
-//    private fun showDialog(){
-//        lateinit var dialog: AlertDialog
-//        var builder = AlertDialog.Builder(this)
-//        builder.setTitle("You Bad Bad")
-//        builder.setMessage("You bad bad the item died lol!")
-//
-//        val dialogClickListener = DialogInterface.OnClickListener{ _, which ->
-//            when(which){
-//                DialogInterface.BUTTON_POSITIVE -> {
-//                    toast("You are going to continue the challenge!!")
-//                    loadAgain()
-//                }
-//                DialogInterface.BUTTON_NEGATIVE -> toast("You fuck off")
-//                DialogInterface.BUTTON_NEUTRAL -> toast("You are staying in the same page")
-//            }
-//        }
-//        // Set the alert dialog positive/yes button
-//        builder.setPositiveButton("YES",dialogClickListener)
-//        // Set the alert dialog negative/no button
-//        builder.setNegativeButton("NO",dialogClickListener)
-//        // Set the alert dialog neutral/cancel button
-//        builder.setNeutralButton("CANCEL",dialogClickListener)
-//
-//        // Initialize the AlertDialog using builder object
-//        dialog = builder.create()
-//        // Finally, display the alert dialog
-//        dialog.show()
-//    }
 
     //function notification
     private fun notification(){

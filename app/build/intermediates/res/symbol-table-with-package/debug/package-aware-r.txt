@@ -1245,11 +1245,11 @@ id parent_matrix
 id percent
 id pin
 id progressBar
-id progress_bar_increase
 id progress_circular
 id progress_horizontal
 id radio
 id reduceHydrationBtn
+id refreshHydrationBtn
 id right
 id right_icon
 id right_side
@@ -1295,7 +1295,6 @@ id src_over
 id standard
 id start
 id status_bar_latest_event_content
-id stop
 id stretch
 id submenuarrow
 id submit_area

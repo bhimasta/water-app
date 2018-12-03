@@ -677,9 +677,9 @@ public final class R {
         public static final int notification_main_column = 0x7f080087;
         public static final int notification_main_column_container = 0x7f080088;
         public static final int parentPanel = 0x7f08008d;
-        public static final int progress_circular = 0x7f080093;
-        public static final int progress_horizontal = 0x7f080094;
-        public static final int radio = 0x7f080095;
+        public static final int progress_circular = 0x7f080092;
+        public static final int progress_horizontal = 0x7f080093;
+        public static final int radio = 0x7f080094;
         public static final int right = 0x7f080097;
         public static final int right_icon = 0x7f080098;
         public static final int right_side = 0x7f080099;
@@ -705,25 +705,25 @@ public final class R {
         public static final int src_in = 0x7f0800bf;
         public static final int src_over = 0x7f0800c0;
         public static final int start = 0x7f0800c2;
-        public static final int submenuarrow = 0x7f0800c6;
-        public static final int submit_area = 0x7f0800c7;
-        public static final int tabMode = 0x7f0800c8;
-        public static final int tag_transition_group = 0x7f0800c9;
-        public static final int tag_unhandled_key_event_manager = 0x7f0800ca;
-        public static final int tag_unhandled_key_listeners = 0x7f0800cb;
-        public static final int text = 0x7f0800cc;
-        public static final int text2 = 0x7f0800cd;
-        public static final int textSpacerNoButtons = 0x7f0800ce;
-        public static final int textSpacerNoTitle = 0x7f0800cf;
-        public static final int time = 0x7f0800d6;
-        public static final int title = 0x7f0800d7;
-        public static final int titleDividerNoCustom = 0x7f0800d8;
-        public static final int title_template = 0x7f0800d9;
-        public static final int top = 0x7f0800dc;
-        public static final int topPanel = 0x7f0800dd;
-        public static final int uniform = 0x7f0800e4;
-        public static final int up = 0x7f0800e6;
-        public static final int wrap_content = 0x7f0800ee;
+        public static final int submenuarrow = 0x7f0800c5;
+        public static final int submit_area = 0x7f0800c6;
+        public static final int tabMode = 0x7f0800c7;
+        public static final int tag_transition_group = 0x7f0800c8;
+        public static final int tag_unhandled_key_event_manager = 0x7f0800c9;
+        public static final int tag_unhandled_key_listeners = 0x7f0800ca;
+        public static final int text = 0x7f0800cb;
+        public static final int text2 = 0x7f0800cc;
+        public static final int textSpacerNoButtons = 0x7f0800cd;
+        public static final int textSpacerNoTitle = 0x7f0800ce;
+        public static final int time = 0x7f0800d5;
+        public static final int title = 0x7f0800d6;
+        public static final int titleDividerNoCustom = 0x7f0800d7;
+        public static final int title_template = 0x7f0800d8;
+        public static final int top = 0x7f0800db;
+        public static final int topPanel = 0x7f0800dc;
+        public static final int uniform = 0x7f0800e3;
+        public static final int up = 0x7f0800e5;
+        public static final int wrap_content = 0x7f0800ed;
     }
     public static final class integer {
         private integer() {}
