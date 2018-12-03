@@ -55,7 +55,6 @@ object AuthService {
     fun findTodaySummaryOfUser (context: Context, complete: (Boolean) -> Unit) {
         val findUserRequest = object : JsonObjectRequest(Method.GET, URL_SUMMARY, null, Response.Listener { response ->
             try {
-                println(response)
                 SummaryService.id = response.getString("id")
                 SummaryService.todayDate = response.getString("date_start")
                 SummaryService.objectType = response.getString("living_object")
@@ -85,6 +84,6 @@ object AuthService {
             }
         }
 
-        Volley.newRequestQueue(context).add(findUserRequest)
+        App.prefs.requestQueue.add(findUserRequest)
     }
 }

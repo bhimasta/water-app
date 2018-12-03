@@ -1,5 +1,6 @@
 package com.nasri.tutorial.Controller
 
+import com.pusher.pushnotifications.PushNotifications
 import android.app.Notification
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -10,6 +11,7 @@ import android.graphics.Color
 import android.os.Build
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.support.design.widget.FloatingActionButton
 import android.support.v4.content.LocalBroadcastManager
 import android.view.View
@@ -23,6 +25,10 @@ import com.nasri.tutorial.Services.AuthService
 import com.nasri.tutorial.Services.SummaryService
 import com.nasri.tutorial.Utilities.BROADCAST_USER_DATA_CHANGE
 import kotlinx.android.synthetic.main.activity_main.*
+import android.support.v4.os.HandlerCompat.postDelayed
+import android.util.Log
+import java.util.*
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -78,9 +84,18 @@ class MainActivity : AppCompatActivity() {
             beHydrate(34)
         }
 
+        PushNotifications.start(getApplicationContext(), "a236022d-cd36-4b3f-b85f-a108953a7c20");
+        PushNotifications.subscribe("hello");
+        PushNotifications.subscribe(App.prefs.userName.toString().replace(" ",""));
         // Create a timer that run this function every 3 minutes
         // refreshDataRegularly()
-        //
+//        val handler = Handler()
+//        handler.postDelayed(object : Runnable {
+//            override fun run() {
+//                Log.d("Regular","refreshed the screen")
+//                handler.postDelayed(this, 2 * 60 * 1000) //now is every 2 minutes
+//            }
+//        }, 0) //Every 120000 ms (2 minutes)
 
 
         //自動跑看看

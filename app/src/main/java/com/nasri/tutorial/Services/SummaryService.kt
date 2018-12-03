@@ -65,6 +65,6 @@ object SummaryService {
             }
         }
 
-        Volley.newRequestQueue(context).add(addIntakeRequest)
+        App.prefs.requestQueue.add(addIntakeRequest)
     }
 }
