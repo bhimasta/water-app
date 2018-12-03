@@ -23,5 +23,6 @@
 
     <string name="my_preference">"com.nasri.com.MyPref"</string>
     <string name="my_preference_key">"com.nasri.com.MyPrefKey"</string>
+    <string name="title_activity_main2">Main2Activity</string>
 
 </resources>

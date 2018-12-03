@@ -4,7 +4,7 @@
             "outputFile": "/Volumes/500GB/Downloads/tutorial_combination2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "/Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fb3651778f633179260eeb2043d220f5/res/values-v25/values-v25.xml",
+                    "source": "/Users/sapidelman7/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/218fd87a9622145cec2d80e933a2d2e8/res/values-v25/values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

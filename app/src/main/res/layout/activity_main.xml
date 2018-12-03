@@ -5,24 +5,44 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity" tools:layout_editor_absoluteY="81dp">
+        tools:context=".Controller.MainActivity" tools:layout_editor_absoluteY="81dp">
 
+    <Button
+            android:text="restart"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/stop"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="120dp"
+            android:layout_marginStart="120dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:visibility="visible"
+            android:layout_marginBottom="20dp"/>
+    <Button
+            android:text="reduce"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/reduceHydrationBtn"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:visibility="visible"
+            android:layout_marginBottom="8dp" android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="20dp" android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.545" app:layout_constraintBottom_toTopOf="@+id/progressBar"/>
     <ProgressBar
             style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
-            android:layout_width="11dp"
-            android:layout_height="510dp"
-            android:progress="100"
+            android:layout_width="14dp"
+            android:layout_height="0dp"
+            android:progress="400"
             android:id="@+id/progressBar"
             android:progressDrawable="@drawable/progressbartheme"
             android:visibility="visible" android:indeterminate="false"
-            android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
-            app:layout_constraintTop_toBottomOf="@+id/toolbar"
             app:layout_constraintBottom_toTopOf="@+id/fabmain"
-            app:layout_constraintStart_toEndOf="@+id/gifImageView" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="30dp"
-            android:layout_marginTop="2dp"
-            android:layout_marginRight="26dp"/>
+            android:layout_marginTop="100dp" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="34dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="34dp"
+            android:layout_alignParentRight="true" android:max="400"/>
     <Button
             android:text="@string/message2"
             android:layout_width="wrap_content"
@@ -37,38 +57,26 @@
             android:layout_marginStart="16dp" app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginEnd="216dp" android:layout_marginRight="216dp"
             android:visibility="invisible"/>
-    <Button
-            android:text="restart"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:id="@+id/stop"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            app:layout_constraintTop_toBottomOf="@+id/progressBar"
-            app:layout_constraintEnd_toStartOf="@+id/fabmain" android:layout_marginBottom="21dp"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="16dp"
-            android:layout_marginStart="16dp" app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginEnd="216dp" android:layout_marginRight="216dp"
-            android:visibility="visible"/>
     <pl.droidsonroids.gif.GifImageView
-            android:layout_width="280dp"
-            android:layout_height="480dp"
+            android:layout_width="284dp"
+            android:layout_height="357dp"
             android:id="@+id/gifImageView"
-            android:src="@drawable/flower1"
-            android:layout_marginTop="14dp"
-            app:layout_constraintTop_toBottomOf="@+id/toolbar" app:layout_constraintEnd_toStartOf="@+id/progressBar"
-            android:layout_marginBottom="13dp" app:layout_constraintBottom_toTopOf="@+id/progress_bar_increase"
+            android:src="@drawable/plant1"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="16dp"
-            android:layout_marginStart="16dp" android:layout_marginEnd="31dp" android:layout_marginRight="31dp"
-            app:layout_constraintVertical_bias="0.0"/>
-    <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:background="?attr/colorPrimary"
-            android:layout_marginBottom="2dp"
-            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toTopOf="@+id/progressBar"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"/>
+            android:layout_marginStart="16dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="76dp"/>
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabmain"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:src="@drawable/add"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@+id/progressBar"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"/>
     <android.support.design.widget.FloatingActionButton
             android:id="@+id/fab2"
             android:layout_height="wrap_content"
@@ -110,53 +118,90 @@
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@+id/fab2"
             android:layout_marginEnd="12dp" android:layout_marginRight="12dp" android:layout_marginBottom="21dp"
     />
-    <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fabmain"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:layout_gravity="bottom|end"
-            android:src="@drawable/add"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignBottom="@+id/progressBar"
-            app:layout_constraintStart_toEndOf="@+id/progress_bar_increase"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="20dp"
-            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"/>
     <TextView
             android:text="Animal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/currentObjectType" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="12sp" app:layout_constraintStart_toEndOf="@+id/labelObject"
+            android:layout_marginStart="8dp" android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.208"/>
+    <TextView
+            android:text="Object:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelObject" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:layout_marginTop="108dp"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.501"
-            android:textSize="20sp"/>
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.029"
+            android:textSize="12sp"/>
     <TextView
             android:text="Hydration"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/currentHydrationTxt" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/currentObjectType" android:textSize="20sp"/>
+            android:textSize="12sp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/currentObjectType"
+            app:layout_constraintStart_toEndOf="@+id/labelHydration" android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp" app:layout_constraintHorizontal_bias="0.056"/>
+    <TextView
+            android:text="Hydration Level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelHydration" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            app:layout_constraintHorizontal_bias="0.028" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/labelObject"/>
+    <TextView
+            android:text="Total Intake:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelIntake"
+            android:textSize="12sp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/labelHydration" android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="16dp"/>
     <TextView
             android:text="Intake"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/todayIntakeTxt" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/currentHydrationTxt" android:textSize="20sp"/>
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/currentHydrationTxt"
+            android:id="@+id/todayIntakeTxt"
+            app:layout_constraintStart_toEndOf="@+id/labelIntake" android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp" app:layout_constraintHorizontal_bias="0.112"/>
     <TextView
             android:text="Die"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/todayDieTxt" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            android:textSize="12sp"
+            app:layout_constraintHorizontal_bias="0.162"
+            app:layout_constraintStart_toEndOf="@+id/labelDie" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/todayIntakeTxt"/>
+    <TextView
+            android:text="Total Die:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelDie" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/todayIntakeTxt" android:textSize="20sp"/>
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            android:textSize="12sp"
+            app:layout_constraintHorizontal_bias="0.022" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/labelIntake"/>
 
 
 </android.support.constraint.ConstraintLayout>
